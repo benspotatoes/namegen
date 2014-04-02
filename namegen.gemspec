@@ -6,10 +6,12 @@ require 'namegen/version'
 Gem::Specification.new do |spec|
   spec.name          = "namegen"
   spec.version       = Namegen::VERSION
-  spec.authors       = ["Benjamin Hsieh"]
-  spec.email         = ["bhsiehh@gmail.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
+  spec.authors       = ["Benjamin Hsieh, Ben's Potatoes"]
+  spec.email         = ["benspotatoes@gmail.com"]
+  spec.summary       = %q{Name generator, inspired by 'turbo-happiness'}
+  spec.description   = %q{A custom name generator following the likes of
+                          Heroku's application-name and Github's repo-name
+                          generators.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
