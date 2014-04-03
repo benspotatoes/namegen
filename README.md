@@ -5,6 +5,9 @@ generate for applications and repositories, so I went ahead and wrote one of my 
 I used a list of ["exquisite"](http://www.dailywritingtips.com/100-exquisite-adjectives)
 adjectives and some custom ones as well to pair with a custom list of nouns.
 
+### 'calamitous-knife'
+A name I generated using this gem!
+
 ## Installation
 
 Add this line to your application's Gemfile:
