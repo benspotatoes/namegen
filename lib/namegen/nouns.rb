@@ -1,4 +1,0 @@
-NOUNS =
-  %w(
-    lightning
-  )

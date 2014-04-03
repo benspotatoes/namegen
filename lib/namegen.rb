@@ -1,9 +1,23 @@
 require "namegen/version"
-require "namegen/adjectives"
-require "namegen/nouns"
+require "namegen/generator"
+require "namegen/adjective"
+require "namegen/noun"
 
 module Namegen
   def self.generate
-    "#{ADJS[rand(ADJS.count)]}-#{NOUNS[rand(NOUNS.count)]}"
+    "#{Adjective.random}-#{Noun.random}"
+  end
+
+  # Generate verbosely (include adjective definition)
+  def self.generate_v
+    adj = Adjective.random
+    defn = Adjective::EXQUISITE[adj]
+    rtn = "#{adj}-#{Noun.random}"
+
+    if defn
+      rtn += "\n  #{adj}: #{defn}"
+    else
+      rtn
+    end
   end
 end

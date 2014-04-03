@@ -1,4 +1,0 @@
-ADJS =
-  %w(
-    turbo
-  )

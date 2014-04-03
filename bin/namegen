@@ -2,4 +2,9 @@
 
 require 'namegen'
 
-puts Namegen::generate
+
+if ARGV[0] == '-v'
+  puts Namegen::generate_v
+else
+  puts Namegen::generate
+end
