@@ -4,7 +4,13 @@ require 'namegen'
 
 
 if ARGV[0] == '-v'
-  puts Namegen::generate_v
+  if ARGV[1] =~ /^\d*$/
+    Namegen::generate_v(ARGV[1].to_i)
+  else
+    Namegen::generate_v
+  end
+elsif ARGV[0] =~ /^\d*$/
+  Namegen::generate(ARGV[0].to_i)
 else
-  puts Namegen::generate
+  Namegen::generate
 end

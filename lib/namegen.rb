@@ -4,20 +4,24 @@ require "namegen/adjective"
 require "namegen/noun"
 
 module Namegen
-  def self.generate
-    "#{Adjective.random}-#{Noun.random}"
+  def self.generate(n = 1)
+    n.times do
+      puts "#{Adjective.random}-#{Noun.random}"
+    end
   end
 
   # Generate verbosely (include adjective definition)
-  def self.generate_v
-    adj = Adjective.random
-    defn = Adjective::EXQUISITE[adj]
-    rtn = "#{adj}-#{Noun.random}"
+  def self.generate_v(n = 1)
+    n.times do
+      adj = Adjective.random
+      defn = Adjective::EXQUISITE[adj]
+      rtn = "#{adj}-#{Noun.random}"
 
-    if defn
-      rtn += "\n  #{adj}: #{defn}"
-    else
-      rtn
+      if defn
+        rtn += "\n  #{adj}: #{defn}"
+      end
+
+      puts rtn
     end
   end
 end

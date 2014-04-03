@@ -24,10 +24,12 @@ Or install it yourself as:
 
 ## Usage
 
-After installing the gem, just type ```namegen``` from your command line and an
-adjective-noun pair will be printed out. A verbose option ```namegen -v``` can
+After installing the gem, just type `namegen` from your command line and an
+adjective-noun pair will be printed out. A verbose option `namegen -v` can
 be specified to include a definition of the adjective (in case some of the words
-are a little too "exquisite" for you like they were for me).
+are a little too "exquisite" for you like they were for me). You can also
+include a number `namegen 5` or `namegen -v 5` to give you a few options at
+once.
 
 ## Contributing
 
