@@ -1,6 +1,9 @@
 # Namegen
 
-TODO: Write a gem description
+I love the names that [Heroku](http://heroku.com) and [GitHub](http://github.com)
+generate for applications and repositories, so I went ahead and wrote one of my own.
+I used a list of ["exquisite"](http://www.dailywritingtips.com/100-exquisite-adjectives)
+adjectives and some custom ones as well to pair with a custom list of nouns.
 
 ## Installation
 
@@ -18,7 +21,10 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+After installing the gem, just type ```namegen``` from your command line and an
+adjective-noun pair will be printed out. A verbose option ```namegen -v``` can
+be specified to include a definition of the adjective (in case some of the words
+are a little too "exquisite" for you like they were for me).
 
 ## Contributing
 
