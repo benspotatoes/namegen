@@ -2,4 +2,4 @@
 
 require 'namegen'
 
-Namegen::generate
+puts Namegen::generate
