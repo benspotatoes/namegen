@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description   = %q{A custom name generator following the likes of
                           Heroku's application-name and Github's repo-name
                           generators.}
-  spec.homepage      = ""
+  spec.homepage      = "http://github.com/benspotatoes/calamitous-knife"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
