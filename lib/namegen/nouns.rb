@@ -1,0 +1,4 @@
+NOUNS =
+  %w(
+    lightning
+  )

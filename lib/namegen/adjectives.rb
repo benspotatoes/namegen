@@ -1,0 +1,4 @@
+ADJS =
+  %w(
+    turbo
+  )
