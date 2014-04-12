@@ -2,6 +2,7 @@ class Noun < Generator
   VALUES =
     # Favorites
     %w(
+      corgi
       happiness
       throne
       evening
@@ -17,6 +18,12 @@ class Noun < Generator
       eon
       iron
       metal
+      shadow
+      rifle
+      carpet
+      table
+      lamp
+      chapstick
     ) +
     # Diablo 3
     %w(

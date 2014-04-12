@@ -114,6 +114,9 @@ class Adjective < Generator
      silent
      ethereal
      ultra
+     cloaked
+     mystical
+     flashy
     ) +
     EXQUISITE.keys
 end
